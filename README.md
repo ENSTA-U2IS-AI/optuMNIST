@@ -15,7 +15,8 @@ Do you have ideas for improvements?
 
 ## How to use
 
-Install torch, then torch-uncertainty with
+### With TorchUncertainty
+Install torch, then  [TorchUncertainty](https://torch-uncertainty.github.io/) with
 
 ```bash
 pip install torch-uncertainty
@@ -28,6 +29,10 @@ python optumnist/optumnist-v1.py
 ```
 
 The dataset will be downloaded automatically.
+
+### Without
+
+Install torch, build your own trainer and get the model and optimization procedure from `optumnist/optumnist-v1.py`.
 
 ## Reference
 
