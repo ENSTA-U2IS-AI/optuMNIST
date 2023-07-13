@@ -10,6 +10,9 @@ from torch import Tensor
 
 
 class NonConvergence(Callback):
+    """ Modified from Lightning's EarlyStopping callback to allow for
+    non-convergence detection.
+    """
     mode_dict = {"min": torch.lt, "max": torch.gt}
 
     order_dict = {"min": "<", "max": ">"}
