@@ -9,6 +9,8 @@ If so, contribute!
 
 We aim to better understand the Pareto front of accuracy and number of parameters for MNIST.
 
+This may prove useful to help understand hyperparameter tuning for frugal models.
+
 Do you have ideas for improvements?
 
 ## How to use
