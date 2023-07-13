@@ -16,6 +16,7 @@ Do you have ideas for improvements?
 ## How to use
 
 ### With TorchUncertainty
+
 Install torch, then  [TorchUncertainty](https://torch-uncertainty.github.io/) with
 
 ```bash
